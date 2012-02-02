@@ -1,4 +1,5 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
-	"font_size": 13.0
+	"font_size": 12.0,
+	"scroll_past_end": true
 }

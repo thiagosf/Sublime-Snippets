@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[$('${1:id_or_class}').click(function(){
+	<content><![CDATA[\$('${1:id_or_class}').click(function(){
 	${2:code}
 });]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

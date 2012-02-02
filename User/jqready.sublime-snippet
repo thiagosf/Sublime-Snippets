@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[$(document).ready(function(){
+	<content><![CDATA[\$(document).ready(function(){
 	${1:code}
 });]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

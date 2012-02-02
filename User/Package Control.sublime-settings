@@ -1,0 +1,9 @@
+{
+	"auto_upgrade_last_run": 1328210183,
+	"installed_packages":
+	[
+		"Alignment",
+		"Package Control",
+		"pastebin-sublime-plugin"
+	]
+}
