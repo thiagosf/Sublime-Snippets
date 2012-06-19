@@ -1,9 +1,18 @@
 {
-	"auto_upgrade_last_run": 1328210183,
+	"auto_upgrade_last_run": 1340114389,
 	"installed_packages":
 	[
 		"Alignment",
+		"BracketHighlighter",
+		"CSScomb",
+		"GotoTab",
+		"JsFormat",
+		"JsMinifier",
 		"Package Control",
-		"pastebin-sublime-plugin"
+		"pastebin-sublime-plugin",
+		"SideBarEnhancements",
+		"SublimeAStyleFormatter",
+		"Theme - Soda",
+		"ZenCoding"
 	]
 }
