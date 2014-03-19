@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[<script type="text/javascript">
+	\$(function() {
+		${1}
+	});
+</script>]]></content>
+	<tabTrigger>sj</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

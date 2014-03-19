@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+echo \$this->Form->create( '${1:Model}' );
+echo \$this->Form->input( '${2:nome}' );
+echo \$this->Form->end( '${3:Submit}' );
+]]></content>
+	<tabTrigger>form</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

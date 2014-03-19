@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[public \$hasOne = array(
+	'${1:Model}' => array(
+		'foreignKey' => '${2:model_id}'
+	)
+);]]></content>
+	<tabTrigger>hasOne</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

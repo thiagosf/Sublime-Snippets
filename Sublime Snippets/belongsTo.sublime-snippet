@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[var \$belongsTo = array(
+	<content><![CDATA[public \$belongsTo = array(
 	'${1:Model}' => array(
 		'foreignKey' => '${2:model_id}'
 	)
