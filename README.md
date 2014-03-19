@@ -1,2 +1,2 @@
 # Sublime-Snippets
-## Atalhos do para Sublime Text 2
+Atalhos do para Sublime Text 2
