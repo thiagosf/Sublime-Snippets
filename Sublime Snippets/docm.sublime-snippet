@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[/**
+ * ${1}
+ * 
+ * @access ${2}
+ * @param ${3}
+ * @return ${4}
+ * @author Thiago Silva <thiago@thiagosf.net>
+ * @since ${5}
+ */]]></content>
+	<tabTrigger>docm</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

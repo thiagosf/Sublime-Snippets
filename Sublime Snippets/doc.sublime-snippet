@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[/**
+ * ${1:$TM_FILENAME}
+ * 
+ * ${2}
+ * 
+ * @package ${3}
+ * @category ${4}
+ * @author Thiago Silva <thiago@thiagosf.net>
+ * @version ${5:1.0.0}
+ * @since ${6}
+ */]]></content>
+	<tabTrigger>doc</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

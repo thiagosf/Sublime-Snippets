@@ -1,0 +1,3 @@
+[submodule "Rails"]
+	path = Rails
+	url = https://github.com/tadast/sublime-rails-snippets.git
