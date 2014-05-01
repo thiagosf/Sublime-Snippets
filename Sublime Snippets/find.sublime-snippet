@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[\$data = \$this->${1:Model}->find('${2:all}', array(
+	${3:'recursive' => -1,}
+	${4:'conditions' => array(
+		'${1}.id' => ${5:var}
+	),}
+	${6:'order' => array(
+		'${1}.${7:id}' => '${8:asc}',
+	),}
+));]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>find</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
