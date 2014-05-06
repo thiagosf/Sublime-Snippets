@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA['${1:name}' => array(
+	'rule' => array('${2:minLength}'${3:, ${4:param}}),
+	'message' => '${5:message}',
+),]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rule</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
