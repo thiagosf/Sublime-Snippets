@@ -1,6 +1,7 @@
 <snippet>
-	<content><![CDATA[/* =${1:titulo}
--------------------------------------------------------------- */]]></content>
+	<content><![CDATA[/* ------------------------------------------
+  ${1:comment}
+---------------------------------------------*/]]></content>
 	<tabTrigger>com</tabTrigger>
 	<scope>source.css</scope>
 </snippet>
