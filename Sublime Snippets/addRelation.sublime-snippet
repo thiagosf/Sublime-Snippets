@@ -1,0 +1,41 @@
+<snippet>
+	<content><![CDATA[public function addRelation ( \$notice_id, \$data ) 
+{
+	if ( isset(\$data['NoticeRegister']['available_in']) ) {
+		\$oldRelation = \$this->find('list', array(
+			'recursive' => -1,
+			'fields' => array(
+				'NoticeRegister.register_type_id',
+				'NoticeRegister.id',
+			),
+			'conditions' => array(
+				'NoticeRegister.notice_id' => \$notice_id, 
+			),
+		));
+		if ( ! empty(\$data['NoticeRegister']['available_in']) ) {
+			foreach ( \$data['NoticeRegister']['available_in'] as \$register_type_id ) {
+				if ( ! isset( \$oldRelation[ \$register_type_id ] ) ) {
+					\$dataSave = array(
+						'NoticeRegister' => array(
+							'notice_id' => \$notice_id, 
+							'register_type_id' => \$register_type_id, 
+						),
+					);
+					\$this->create( true );
+					\$this->save( \$dataSave );
+				}
+				unset( \$oldRelation[ \$register_type_id ] );
+			}
+		}
+		if ( ! empty(\$oldRelation) ) {
+			\$this->deleteAll(array(
+				'NoticeRegister.id' => \$oldRelation, 
+			), true);
+		}
+	}
+}]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>addRelation</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

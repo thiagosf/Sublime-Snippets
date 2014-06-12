@@ -2,13 +2,17 @@
 	<content><![CDATA[/**
  * ${1:$TM_FILENAME}
  * 
- * ${2}
+ * ${2:Descricao}
  * 
- * @package ${3}
- * @category ${4}
- * @author Thiago Silva <thiago@thiagosf.net>
- * @version ${5:1.0.0}
- * @since ${6}
+ * @package App/${3:Controller}/$TM_FILENAME
+ * @category ${3:Controller}${4}
+ * @name ${1:Titulo}
+ * @author Thiago Silva <thiago@phocus.com.br>
+ * @copyright Phocus Interact
+ * @license Phocus Interact
+ * @link ${6}
+ * @version 1.0.0
+ * @since ${7}
  */]]></content>
 	<tabTrigger>doc</tabTrigger>
 	<scope>source.php</scope>

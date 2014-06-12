@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[array(
+	'table'			=> '${1:table}', 
+	'alias'			=> '${2:alias}', 
+	'type'			=> '${4:type}', 
+	'foreignKey'	=> ${3:false}, 
+	${5:'conditions' => array(
+		'${6:conditions}' 
+	),} 
+);]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>join</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

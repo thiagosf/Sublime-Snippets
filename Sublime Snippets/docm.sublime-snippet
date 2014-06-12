@@ -1,13 +1,14 @@
 <snippet>
 	<content><![CDATA[/**
- * ${1}
+ * ${1:Descricao}
  * 
  * @access ${2}
- * @param ${3}
- * @return ${4}
- * @author Thiago Silva <thiago@thiagosf.net>
- * @since ${5}
+ * @param ${3:tipo $variavel descricao}
+ * @return ${4:tipo $variavel descricao}
+ * @author Thiago Silva <thiago@phocus.com.br>
+ * @link ${5}
+ * @since ${6}
  */]]></content>
-	<tabTrigger>docm</tabTrigger>
+    <tabTrigger>docm</tabTrigger>
 	<scope>source.php</scope>
 </snippet>
