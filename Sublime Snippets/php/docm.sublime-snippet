@@ -5,8 +5,7 @@
  * @access ${2}
  * @param ${3:tipo $variavel descricao}
  * @return ${4:tipo $variavel descricao}
- * @author Thiago Silva <thiago@phocus.com.br>
- * @link ${5}
+ * @author Thiago Silva <thiago@thiagosf.net>
  * @since ${6}
  */]]></content>
     <tabTrigger>docm</tabTrigger>

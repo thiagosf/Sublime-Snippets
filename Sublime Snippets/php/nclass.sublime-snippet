@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[class ${1:Name} extends ${3:AppModel}${4:AppController} {
+  ${5}
+}]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>nclass</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

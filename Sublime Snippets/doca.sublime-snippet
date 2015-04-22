@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[/**
- * @access ${2:public}
- * @var ${3:string}
- */]]></content>
-	<tabTrigger>doca</tabTrigger>
-	<scope>source.php</scope>
-</snippet>

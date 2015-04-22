@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[/**
+ * Converte valores
+ * 
+ * @access public
+ * @param array $data
+ * @return array
+ * @author Thiago Silva <thiago@thiagosf.net>
+ * @since ${1:99}-${2:99}-${3:2014}
+ */
+public function convertValues ( \$data ) 
+{
+	${4}
+	return \$data;
+}]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>convertvalues</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

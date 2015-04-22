@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[/**
+ * @var ${1:string} \$${2:name} ${3:description}
+ */]]></content>
+  <tabTrigger>doca</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

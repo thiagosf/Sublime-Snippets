@@ -3,5 +3,5 @@
   ${1:comment}
 ---------------------------------------------*/]]></content>
 	<tabTrigger>com</tabTrigger>
-	<scope>source.css</scope>
+	<scope>source.css,source.scss,source.sass,source.js</scope>
 </snippet>

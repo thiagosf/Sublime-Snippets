@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[__("${1:var}")]]></content>
+  <tabTrigger>_</tabTrigger>
+  <scope>source.php, text.html</scope>
+</snippet>
