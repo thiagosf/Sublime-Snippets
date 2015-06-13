@@ -1,9 +1,7 @@
 <snippet>
-  <content><![CDATA[@media #{\$medium-up} {
-  ${1}
-}]]></content>
+  <content><![CDATA[font-weight: \$light-weight;]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>mediumup</tabTrigger>
+  <tabTrigger>fwl</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.sass, source.scss</scope>
 </snippet>

@@ -1,16 +1,15 @@
 <snippet>
-	<content><![CDATA[/**
+  <content><![CDATA[/**
  * ${1:$TM_FILENAME}
  * 
  * ${2:Descricao}
  * 
- * @package App/${3:Controller}/$TM_FILENAME
- * @category ${3:Controller}${4}
- * @name ${1:Titulo}
+ * @package ${3:$TM_FILEPATH}
+ * @category ${4}${3}
  * @author Thiago Silva <thiago@thiagosf.net>
  * @version 1.0.0
  * @since ${5}
  */]]></content>
-	<tabTrigger>doc</tabTrigger>
-	<scope>source.php</scope>
+  <tabTrigger>doc</tabTrigger>
+  <scope>source.php</scope>
 </snippet>
