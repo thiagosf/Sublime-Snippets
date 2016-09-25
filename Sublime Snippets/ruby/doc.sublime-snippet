@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[# ${1:Description}
+#
+# Author::    Thiago Silva Ferreira <thiago@thiagosf.net>
+# Copyright:: Copyright (c) ${2:2015} Slideworks.cc
+# License::   Distributes under the same terms as Ruby]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>doc</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+</snippet>
