@@ -15,5 +15,9 @@
         { "operand": false, "operator": "equal", "match_all": true, "key": "auto_complete_visible" },
         { "match_all": true, "key": "is_abbreviation" }
     ]
+  },
+  {
+    "keys": ["ctrl+e"],
+    "command": "emmet_expand_abbreviation"
   }
 ]

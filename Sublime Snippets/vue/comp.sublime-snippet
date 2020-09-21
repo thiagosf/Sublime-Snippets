@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[<template>
+  <div class="${1:name}">
+    ${1:name}
+  </div>
+</template>
+
+<script>
+  export default {
+    name: '${2:${1:name}}'
+  }
+</script>
+
+<style>
+  .${1:name} {
+    ${3}
+  }
+</style>
+]]></content>
+  <tabTrigger>comp</tabTrigger>
+  <scope>text.html.vue</scope>
+</snippet>

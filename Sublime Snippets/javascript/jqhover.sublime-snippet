@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[\$(document).on('hover', '${1:id_or_class}', function( e ) {
-	e.preventDefault();
-	${2:// code}
-});]]></content>
-	<tabTrigger>hover</tabTrigger>
-	<scope>text.html, source.js</scope>
-</snippet>

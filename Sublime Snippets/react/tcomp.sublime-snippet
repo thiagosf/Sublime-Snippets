@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[import React, { useState } from 'react'
+import './styles.css'
+
+interface Props {
+}
+
+const ${1:name}: React.FC<Props> = ({ children, ...props }) => {
+  return (
+    <div className="${2:className}" {...props}>
+      ${3:\{children\}}
+    </div>
+  )
+}
+
+export default ${1:name}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>tcomp</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.tsx,source.ts</scope>
+</snippet>

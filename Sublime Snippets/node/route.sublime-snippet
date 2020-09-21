@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[export default async function (req, res, next) {
+  res.send({ success: true })
+}]]></content>
+	<tabTrigger>route</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
